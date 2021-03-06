@@ -1,5 +1,5 @@
 # Angular
 Angular Fundamentals
 # Day01
-* Prepering work Enveronment .
+* Preparing work Enveronment .
 * What is TypeScript ?
