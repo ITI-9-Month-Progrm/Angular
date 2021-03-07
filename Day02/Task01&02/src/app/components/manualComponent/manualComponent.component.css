@@ -1,0 +1,39 @@
+.header{
+   
+    border-radius: 10px;
+    border-bottom: solid chocolate;
+    margin: auto;
+    background-color: honeydew;
+}
+h1{
+    color: chocolate;
+    margin-left: 430px;
+}
+.form{
+    width: 450px;
+    height: 100px;
+    border-radius: 10px;
+    border: solid chocolate;
+    margin: auto;
+    background-color: honeydew;
+    padding: 10px;
+}
+label{
+    margin-left: 10px;
+}
+.slider{
+    margin-left: 510px;
+}
+.image{
+    border-radius: 10px;
+    border: solid white;
+    width: 300px;
+    height: 350px;
+  
+}
+.arrow{
+    border-radius: 50%;
+    background-color: green;
+   font-size: larger;
+  
+}

@@ -1,0 +1,19 @@
+<div class="header">
+    <h1>Hello Form Manual Component</h1>
+</div>
+<div class="form">
+  
+   <input type="text" [value]="userName" placeholder="Please enter yourName" (keyup) ="changeName($event)" >
+   <label >Hello Ya {{userName}}</label>
+   <br>
+    <input type="button" (click)="defaultValue()" value="Click ME"> 
+</div>
+
+<div class="slider">
+    <input class="arrow"type="button" value="Prev" (click)="goPrev()" >
+    <img class="image" [src]="src">
+   
+    <input class="arrow"type="button" value="Next" (click)="goNext()"> </div>
+
+
+ 
