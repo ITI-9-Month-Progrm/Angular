@@ -1,0 +1,10 @@
+<table class="student">
+      <tr>
+        <th>Student Name</th>
+        <th>Age</th>
+      </tr>
+      <tr *ngFor="let s of DataStudentList">
+          <td *ngIf="s.studentName!=''">{{s.studentName}}</td>
+          <td *ngIf="s.studentAge > 0">{{s.studentAge}}</td>
+      </tr>
+</table>

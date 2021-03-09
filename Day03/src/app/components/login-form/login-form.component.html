@@ -1,0 +1,20 @@
+<!-- <p>login-form works!</p> -->
+<fieldset>
+    <legend><img src="assets/icons/add-user.png" width="100px" height="100px"/></legend>
+   
+    <label >UserName</label>
+    <input type="Text" [(ngModel)]="userName" placeholder="Please enter username"/>
+    <br />
+    <br />
+    <label>Age</label>
+    <input type="number" [(ngModel)]="age" min="0" placeholder="Please enter Age"/>
+    <br />
+    <br />
+    <input class="btnAdd" *ngIf="age >= 18" type="button" value="Add" (click)="sendStudentData()">
+    <div class="error" *ngIf="age < 18">
+        Age is not valid
+    </div>
+    <br />
+    <br />
+   
+</fieldset>
