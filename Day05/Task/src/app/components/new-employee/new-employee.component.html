@@ -1,0 +1,31 @@
+<fieldset class="text-center">
+  <form  class="form-group">
+    <legend><img src="assets/images/new-emp.png" width="100px" height="100px"/></legend>
+
+    <label class="m-2" >UserName</label>
+    <input class="m-2"  #name id="name" type="Text" placeholder="Please enter username"/>
+    <br />
+    <br />
+    <label class="m-3" >Age</label>
+    <input class="m-3"  #age id="age" type="number"  min="0" placeholder="Please enter Age"/>
+    <br />
+    <br />
+    <label class="m-2">Email</label>
+    <input class="m-2" #email id="email" type="email" placeholder="Please enter Email"/>
+    <br />
+    <br />
+    <label class="m-3" >City</label>
+    <input class="m-2" #city id="city" type="text"   placeholder="Please enter City"/>
+    <br />
+    <br />
+    <label class="m-2">Street</label>
+    <input class="m-2" #street id="street" type="text"   placeholder="Please enter Street"/>
+    <br />
+    <br />
+    <button class="btn btn-primary " (click)="addNewEmp(name.value, age.value, email.value, city.value, street.value)">Add Emplyee</button>
+
+  </form>
+
+</fieldset>
+
+

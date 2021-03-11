@@ -1,0 +1,64 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Micky",
+      "age": "20",
+      "email": "micky20@gmail.com",
+      "address": {
+        "city": "Desiny-1",
+        "street": "st.Des-20"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Minie",
+      "age": "21",
+      "email": "minie21@gmail.com",
+      "address": {
+        "city": "Desiny-2",
+        "street": "st.Des-21"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Batot",
+      "age": "22",
+      "email": "batot22@gmail.com",
+      "address": {
+        "city": "Desiny-3",
+        "street": "st.Des-22"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Batota",
+      "age": "23",
+      "email": "batota23@gmail.com",
+      "address": {
+        "city": "Desiny-4",
+        "street": "st.Des-23"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Ali",
+      "age": "20",
+      "email": "ali30@gmail.com",
+      "address": {
+        "city": "Cairo",
+        "street": "st.Tahreer"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Asmaa",
+      "age": "22",
+      "email": "asmaa22@gmail.com",
+      "address": {
+        "city": "Giza",
+        "street": "st.gomhoria"
+      }
+    }
+  ]
+}

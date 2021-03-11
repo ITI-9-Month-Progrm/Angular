@@ -1,0 +1,13 @@
+<div class="d-inline-flex m-5">
+  <img class="img-fluid" [src]="imgSrc" class="col-4" alt="Hello New Employee ^^">
+  <div class="col-6">
+    <h4>Name :  {{employee.name}}</h4>
+    <h4>Age  :  {{employee.age}}</h4>
+    <h4>Email :  {{employee.email}}</h4>
+    <h4> <p>city: {{employee.address.city}}</p> <p>Street : {{employee.address.street}} </p></h4>
+  </div>
+</div>
+<div style="margin-left: 50%;">
+  <button class="btn btn-primary" (click)="goToHome()">Back</button>
+</div>
+

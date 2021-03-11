@@ -1,0 +1,33 @@
+<div class="head">
+  <h1 style="margin-left: 44%;" class="text-info">Company</h1>
+  <table class="table border table-bordered table-active ">
+    <thead class="thead-dark">
+      <tr>
+        <th rowspan="2" class="border text-center">ID</th>
+        <th rowspan="2" class="border" style="text-align: center;">Name</th>
+        <th rowspan="2" class="border" style="text-align: center;">Age</th>
+        <th rowspan="2" class="border" style="text-align: center;">Email</th>
+        <th colspan="2" class="border" style="text-align: center;">Address</th>
+
+      </tr>
+      <tr class="border" >
+        <th  >City</th>
+        <th  >Street</th>
+      </tr>
+    </thead>
+
+
+      <tr *ngFor="let e of employeeList" [empID]="e.id">
+
+        <td><a class="btn btn-dark" routerLink="{{e.id}}">{{e.id}}</a></td>
+        <td>{{e.name}}</td>
+        <td>{{e.age}}</td>
+        <td>{{e.email}}</td>
+        <td>{{e.address["city"]}}</td>
+        <td>{{e.address["street"]}}</td>
+      </tr>
+
+  </table>
+
+</div>
+
