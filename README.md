@@ -10,4 +10,7 @@ Angular Fundamentals
 # Day03
 * Directives (if, else, loop).
 * Components Interaction.
+# Day04
+* Validators
+* Single Page Application "Routing"
 

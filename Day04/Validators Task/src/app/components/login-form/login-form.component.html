@@ -1,0 +1,23 @@
+<!-- <p>login-form works!</p> -->
+<fieldset>
+  <form [formGroup]="formValidation">
+    <legend><img src="assets/icons/add-user.png" width="100px" height="100px"/></legend>
+
+    <label >UserName</label>
+    <input formControlName="name" #name id="name" type="Text" placeholder="Please enter username"/>
+    <br />
+    <br />
+    <label>Age</label>
+    <input formControlName="age" #age id="age" type="number"  min="0" placeholder="Please enter Age"/>
+    <br />
+    <br />
+    <input class="btnAdd" *ngIf="allValid" type="button" value="Add" (click)="sendStudentData(name.value,age.value)">
+    <div class="error" *ngIf="!allValid" >
+        Age is not valid
+    </div>
+    <br />
+    <br />
+  </form>
+
+</fieldset>
+

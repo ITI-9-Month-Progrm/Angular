@@ -1,0 +1,46 @@
+
+<div class="col-12">
+
+  <nav class="navbar-nav navbar-expand bg-dark col-12 navbar-dark nav-pills" >
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="students">Student_Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="getStudent/100">Student_Details</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="profile">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="error">Error</a>
+      </li>
+      <li class="nav-item">
+        <input type="button" class="nav-link bg-dark " value="To Home" (click)="goToHome()"/>
+      </li>
+    </ul>
+  </nav>
+<div class="changeComponent col-12 d-inline-flex pad2">
+  <div class="about  col-lg-3 border-right pad2 m-2 ">
+    <p class="h5 bg-light">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+         It has survived not only five centuries, but also the leap into electronic typesetting,
+         remaining essentially unchanged. It was popularised in the 1960s with
+         the release of Letraset sheets containing Lorem Ipsum passages,
+          and more recently with desktop publishing software like Aldus PageMaker
+           including versions of Lorem Ipsum.
+    </p>
+  </div>
+  <div class="Routing col-lg-9 border" >
+      <router-outlet>
+
+      </router-outlet>
+  </div>
+</div>
+</div>
+

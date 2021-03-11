@@ -1,0 +1,25 @@
+table, th, td{
+    border: solid 2px palevioletred ;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+table tr:nth-child(even) {
+    background-color:rgba(51, 102, 0,0.3);
+  }
+table tr:nth-child(odd) {
+   background-color: rgba(51, 102, 0,0.5);
+  }
+table th {
+    background-color: palevioletred;
+    color: black;
+  }
+.student{
+    /* position:relative; */
+    margin-top: 3%;
+    margin-left: 33%;
+    border-radius: 25px;
+    width: 300px;
+   
+}
